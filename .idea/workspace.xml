@@ -5,89 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c6d5214-6ef7-4624-8710-63251a156aa0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/StdUCN_7_1__4_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/StdUCN_7_1__4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/Ayudantia3/Ayudantia3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/Ayudantia3/ListaProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/Ayudantia3/ListaUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/Ayudantia3/Productos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/Ayudantia3/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/EjercicioDeLista/Ciudad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/EjercicioDeLista/ListaPais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/EjercicioDeLista/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/Ayudantia 2 segunda ves hecho.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/CodigoAyudantia2/CodigoAyudantia2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/CodigoAyudantia2/Libros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/CodigoAyudantia2/ListaLibro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/CodigoAyudantia2/ListaPelicula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/CodigoAyudantia2/ListaUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/CodigoAyudantia2/Peliculas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/CodigoAyudantia2/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/Diagrama Dominio.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/Diagrama de Clases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/ayudantia2/diagrama clases segunda ves hecho.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ayudantias/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase4PrograAV/Clase4Progra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase4PrograAV/CuentaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase4PrograAV/Diagrama Clases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clase4PrograAV/entidades.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjercicioClase5/Ciudad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjercicioClase5/Clase5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjercicioClase5/ListaCiudad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjercicioLibreria/ClasesPrueba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjercicioLibreria/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjercicioLibreria/ListaLibro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjercicioLibreria/planUML/Diagrama Clases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EjercicioLibreria/planUML/modeloDelDomonio.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PruebaDiasAntes/EjercicioAyudantia/Ayudantia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PruebaDiasAntes/EjercicioAyudantia/ListaProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PruebaDiasAntes/EjercicioAyudantia/ListaUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PruebaDiasAntes/EjercicioAyudantia/Productos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PruebaDiasAntes/EjercicioAyudantia/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PruebaDiasAntes/Libros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PruebaDiasAntes/ListaLibros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PruebaDiasAntes/PruebaAntes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TalleresPrograAvanzada/ModeloDelDomonio.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Consultor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/Bulbazor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/Charmander.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/ClasesPokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/InterfacePlanta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/InterfacesAgua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/Pikachu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/PokemonElectrico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/PokemonFuego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/EjercicioDePokemonTodoCode/Squartle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Encapsulamiento/Encapsulamiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Jefe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoCodeHerenciaClase6/clases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Clase5/ESTUDIANTE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Clase5/ListaEstudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Clase5/PaisYCiudades/Ciudades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Clase5/PaisYCiudades/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Clase5/PaisYCiudades/Pais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Clase5/main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Problema2/Almoadita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Problema2/Clases3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Problema2/Diagrama de clases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/Problema2/Dominio.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosClases/main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/veterianarias/Almoadiata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/veterianarias/Veterinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/veterianarias/Veterinarop/Listaveterinariop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/veterianarias/Veterinarop/mainVeterinariop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/veterianarias/Veterinarop/veterinriop1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tarea2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TalleresPrograAvanzada/ModeloDelDomonio.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/TalleresPrograAvanzada/ModeloDelDomonio.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Pablo Cuevas/Documents",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.16015625",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pablo Cuevas/Documents&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.16015625&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Clase6PrograAvanzada" />
