@@ -1,0 +1,111 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+left to right direction
+
+class  Usuario{
+-nombre:String
+-apellidoPaterno:String
+-apellidoMaterno:String
+-rut:String
+-nombreUsuario:String
+-contraceña:String
+-menbrecia:String
++Usuario(nombre:String,apellidoPaterno:String,apellidoMaterno:String,rut:String,nombreUsuario:String
+contraceña:String,menbrecia:stock)
++getnombre():String
++getapellidoPaterno():String
++getapellidoMaterno():String
++getrut():String
++getnombreUsuario():String
++getcontraceña():String
++getmenbrecia():String
++set´s()
+
+}
+
+
+class  Libros{
+
+-id libro:String
+-tituloLibro:String
+-autor:String
+-genero 1 libro:String
+-genero 2 libro:String
+-cantida de paginas:int
+-anio de publicacion:int
+-stock libro:int
++Libros(String :id libro, String:tituloLibro,String :autor,String:genero 1 libro
+String: genero 2 libro,int:cantida de paginas,int :anio de publicacion,int stock)
++getid libro():String
++gettituloLibro():String
++getgenero 1 libro():String
++getgenero 2 libro():String
++getcantidad de paginas():int
++getanio de publicacion():int
++getstock libro():int
++set´():
+}
+
+
+class Peliculas{
+
+-id pelicula:String
+-nombre de la pelicula:String
+-director:String
+-genero 1 pelicula:String
+-genero 2 pelicula:String
+-cantidad de horas:int
+-cantidad de minutos:int
+-anio de estreno:int
+-stock pelicula:int
++Peliculas(String: id Peliculas,String nombre de la pelicula,String genero1Pelicula;String genero2pelicula,
+int cantidadDeHora,int cantidadDeMinutos,int anioDeEstreno,int stockPelicula,int: cantidaddeHORA)
++get´s()
++set´s()
+}
+
+class ListaUsuario{
+-Usuario[]arregloUsuario:void
+-cantidaMaximaUsuario:int
+-cantidadActualUsuario: int
++ListaUsuario(int cantidadMaxima):void
++buscar(String nombreUsuario):void
++optener(int pocicion):void
++agregar(Usuario nuevoUsuario):void
++eliminar(String nombreUsuario):void
+}
+class ListaLibro{
+-Libro[]arregloLibro:void
+-cantidaMaximaLibro:int
+-cantidadActualLibro: int
++ListaUsuario(int cantidadMaximaLibro):void
++buscar(String titulo):void
++optener(int pocicion):void
++agregar(Libro nuevoLibro):void
++eliminar(String Libro):void
+}
+class ListaPelicula{
+-Pelicula[]arregloPelicula:void
+-cantidaMaximaPelicula:int
+-cantidadActualPelicula: int
++ListaPelicula(int cantidadMaximaPelicula):void
++buscar(String nombrePelicula):void
++optener(int pocicion):void
++agregar(Libro nuevaPelicula):void
++eliminar(String nombrePelicula):void
+}
+
+note "si la pelicula dura menos de 1 hora cantidad horas = 0" as N1
+note "la menbresia solo puede ser 3 (normal, premiun, vib)" as N2
+
+Usuario"1" *->"0..*" ListaUsuario:inscribe
+Libros"0..*" o--"0..*" ListaLibro:Revisa
+ListaLibro "1"-->"1"ListaUsuario:Arrienfa
+Peliculas"0..*" o-- "1"ListaPelicula:Revisa
+ListaPelicula"1" -->"1"ListaUsuario:Arrienda
+
+N1->Peliculas
+N2->Usuario
+
+@enduml

@@ -1,0 +1,57 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+left to right direction
+
+skin rose
+
+entity Empleado{
+nombreUSUARIO
+Contraceña
+nombre
+apellido
+rut
+comicion
+
+}
+
+
+
+
+entity VideoJuegos{
+
+codigo
+nombre
+precio
+genero
+clasificacionEdad
+desarrollo
+plataforma
+
+}
+
+
+
+entity Cliente{
+cuenta
+nombreCompleto
+rut
+email
+descuento
+}
+
+note "El cliente puede tener o no descuento \n eso depende si tiene cuenta creada " as N1
+
+note "El empleado gana una comicion por venta realizada \n sobre cualquier juego o producto en tienda " as N2
+
+
+Empleado"1..*" --> "1"Cliente:Atienden
+Cliente"1"  --->"1..*" VideoJuegos:Escoge
+
+N1->Cliente
+N2->Empleado
+
+
+
+@enduml

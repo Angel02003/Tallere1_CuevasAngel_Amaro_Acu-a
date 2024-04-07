@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+left to right direction
+
+entity Biblioteca{
+libros
+}
+entity Libro{
+ isbn;
+ nombreLibro;
+ nombreAutor;
+ generoLibro;
+ cantidadPaginas;
+ carril;
+}
+Biblioteca"1"--->"0...*"Libro:retiran
+
+@enduml

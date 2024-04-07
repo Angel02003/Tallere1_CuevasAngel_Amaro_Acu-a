@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+left to right direction
+
+skin rose
+
+entity Almoaditas{
+nombremascota
+nombreduenio
+edad
+especie
+razondevisita
+estadoanimal
+}
+
+
+@enduml

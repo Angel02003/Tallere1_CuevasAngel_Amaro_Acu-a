@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+left to right direction
+
+entity banco{
+cuenteBancaria
+
+}
+
+entity CuentaBancaria{
+saldo
+giro()
+deposito()
+}
+
+banco"1" -->"1" CuentaBancaria
+
+@enduml

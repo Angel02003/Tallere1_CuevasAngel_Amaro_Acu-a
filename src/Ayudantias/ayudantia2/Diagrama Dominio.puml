@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+skin rose
+
+entity Usuario{
+nombreDelUsuario
+apelidoPaterno
+apellidoMaterno
+rut
+nombreDeUsuario
+contraceña
+tipoDeUsuario
+}
+
+entity Libros{
+idLibro
+tituloLibro
+autor
+genero1Libro
+genero2Libro
+cantidadDePaginas
+anioDePublicacion
+stockLibro
+}
+
+entity Pelicula{
+idPelicula
+nombreDeLaPelicula
+director
+genero1Pelicula
+genero2Pelicula
+cantidadDeHoras
+cantidadDeMinutos
+anioDeEstreno
+stockPelicula
+}
+note "La menbresia puede ser normal,premiun o vip" as N1
+note "la pelicula puede durar menos de 1hora" as N2
+
+Usuario "1" --->"0..*"Libros:Arrienda
+Usuario"1" --->"0...*"Pelicula:Arrienda
+Usuario ->N1
+Pelicula->N2
+@enduml
