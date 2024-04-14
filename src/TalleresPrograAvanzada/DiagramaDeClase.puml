@@ -1,0 +1,102 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+left to right direction
+skin rose
+
+class Empleado{
+-nombreUSUARIO: String
+-Contraceña: String
+-nombre: String
+-apellido: String
+-rut: String
+-comicion: int
+--
++Empleado(nombreUSUARIO: String, Contraceña: String, nombre: String, apellido: String, rut: String, comicion: int)
++getNombreUSUARIO(): String
++getContraceña(): String
++getNombre(): String
++getApellido(): String
++getRut(): String
++getComicion(): int
++set's():void
+}
+class VideoJuegos{
+-codigo: String
+-nombre: String
+-precio: int
+-genero: String
+-clasificacionEdad: int
+-desarrollo: String
+-plataforma: String
++VideoJuegos(codigo: String, nombre: String, precio: int, genero: String, clasificacionEdad: int, desarrollo: String, plataforma: String)
++getCodigo(): String
++getNombre(): String
++getPrecio(): int
++getGenero(): String
++getClasificacionEdad(): int
++getDesarrollo(): String
++getPlataforma(): String
++set's():void
+}
+class Cliente{
+-cuenta: String
+-nombreCompleto: String
+-rut: String
+-email: String
+-descuento: int
++Cliente(cuenta: String, nombreCompleto: String, rut: String, email: String, descuento: int)
++getCuenta(): String
++getNombreCompleto(): String
++getRut(): String
++getEmail(): String
++getDescuento(): int
++set's():void
+}
+
+class ListaVideojuegos{
+-arreglo: Videojuegos[]
+-cantidadMax: int
+-cantidadAct: int
++ListaVideojuegos(cantidadMax: int)
++venderVideojuego(nombre: String)void
++bucarVideojuego(codigo: String)void
++bucarVideojuego(nombre: String)void
+}
+
+class ListaEmpleados{
+-arreglo: Empleados[]
+-cantidadMax: int
+-cantidadAct: int
++ListaEmpleados(cantidadMax: int)
++buscar(rut: String): int
++obtener(posicion: int): Empleado
++agregar(empleado: Empleado)
++eliminar(rut: String): boolean
+}
+
+class ListaClientes{
+-arreglo: Clientes[]
+-cantidadMax: int
+-cantidadAct: int
++ListaClientes(cantidadMax: int)
++buscar(rut: String): int
++obtener(posicion: int): Cliente
++agregar(cliente: Cliente)
++eliminar(rut: String): boolean
+}
+
+
+note "El cliente puede tener o no descuento \n eso depende si tiene cuenta creada " as N1
+
+note "El empleado gana una comicion por venta realizada \n sobre cualquier juego o producto en tienda " as N2
+
+Empleado"1..*" --> "1"Cliente:Atienden
+Cliente"1"  --->"1..*" VideoJuegos:Escoge
+Cliente"*" <--o "1"ListaClientes: contiene
+VideoJuegos"*" <--o "1"ListaVideojuegos: contiene
+Empleado"*" <--o "1"ListaEmpleados: contiene
+
+N1->Cliente
+N2->Empleado
+@enduml
