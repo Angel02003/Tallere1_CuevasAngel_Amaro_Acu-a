@@ -1,0 +1,35 @@
+}@startuml
+'https://plantuml.com/sequence-diagram
+
+Skin rose
+
+class  CartaCSV{
+nombre:String
+mana:String
+tipo de carta:String
+texto:String
+casting cost:String
+Ataque:int
+vida:int
+}
+CartaCSV"1..*" -->"1..*" Maso: Tiene
+class Maso{
+Cartas
+}
+
+class  CartaTXT{
+nombre:String
+tipo:String
+color:String
+}
+CartaTXT"1..*" -->"1..*" Maso:tiene
+
+
+class Ususario{
+nombreUsuario:String
+contraceña:String
+
+}
+Maso"1"-->"1"Ususario:tiene
+
+@enduml

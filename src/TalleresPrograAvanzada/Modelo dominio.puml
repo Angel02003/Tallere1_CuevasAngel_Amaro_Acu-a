@@ -1,0 +1,140 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+package model{
+
+class ListaUsuario{
+
+-arreglo[]:Usuario
+-cantidadMaxima:int
+-cantidadAtual:int
++bucar(Sting nombreUsuario):int
++optener(int pocicion):Carta
++agregar(Carta nuevoUsuario):boolean
++eliminar(Sting nombreUsuario):boolean
+
+}
+
+class Usuario{
+
+-nombreUsuario:String
+-contraceña:String
++Usuario(Sting nombreUsuario,String contraceña)
++get´s()
++set´t():void
+}
+ListaUsuario"1"<--"1"Usuario:crea
+
+
+abstract Carta{
+
+-nombre:String
+-mana:String
+-tipo de carta:String
+-texto:String
+-casting cost:String
++Carta(String: nombre, String mana,String tipo de carta,String casting)
++get´s()
++set´s()
++{abstract} empaquetarIformacion():String
++{abstract} calcularCostoMana():boolean
+}
+Carta"1..*" <|---"1..*" CosteMana:Cuesta
+class CosteMana{
+-isla:String
+-montaña:String
+-bosque:String
+-planice:String
+-pantano:String
+-incoloro:String
++Manacost(String isla, String montaña,String bosque,String planice,String pantano,String incoloro,String: nombre, String mana,String tipo de carta,String casting )
++get´s()
+}
+
+class ListaCartas{
+
+-arreglo[]:Carta
+-cantidadMaxima:int
+-cantidadAtual:int
++bucar(Sting nombre):int
++optener(int pocicion):Carta
++agregar(Carta nuevaCarta):boolean
++eliminar(Sting nombre):boolean
+}
+ListaCartas o---Carta
+Carta <|--- Ataque:tiene
+
+class Ataque {
+-Ataque:int
+-vida:int
++Ataque(String: nombre, String mana,String tipo de carta,String casting,int ataque,int vida)
++get´s()
++set´():void
+}
+
+
+class CartaTXT{
+
+-nombre:String
+-tipo:String
+-color:String
++CartaTXT(Sting nombre),String tipo,String color)
++get´s()
++set´():void
+}
+
+class ListaCartasTXT{
+
+-arreglo[]:CartaTXT
+-cantidadMaximaTXT:int
+-cantidadAtualTXT:int
++bucar(Sting nombre):int
++optener(int pocicion):Carta
++agregar(Carta nuevaCarta):boolean
++eliminar(Sting nombre):boolean
+}
+ListaCartasTXT o-- CartaTXT:Agrega
+
+}
+
+
+package Servis {
+
+interface IsistemaCarta{
+
++lecturaArchivo1():boolean
++lecturaArchivo2():boolean
++verCarta():String
++eliminarCarta():String
++agregarCartaCSV():boolean
++agregarCartaTXT():boolean
++agregarUsuario():boolean
++buscarCarta():String
+}
+
+
+class SistemaCarta{
+-lecturaArchivo1:String
+-lecturaArchivo2:String
+-listaCarta:ListaCartas
+-listaCartasTXT:ListaCartasTXT
++IsistemaCarta()
+}
+
+IsistemaCarta <|.. SistemaCarta:implemente
+}
+
+package utils {
+        class Instalador {
+            - sistemaHaInstalar : IsistemaCarta
+            + Instalador()
+            + instalarSistema(): IsistemaCarta
+        }
+    }
+Instalador --> IsistemaCarta:Instala
+ListaCartasTXT--> SistemaCarta:dirige
+ListaCartas--> SistemaCarta:dirige
+ListaUsuario-->SistemaCarta:dirige
+
+@enduml
